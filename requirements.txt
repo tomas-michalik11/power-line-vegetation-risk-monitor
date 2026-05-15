@@ -1,0 +1,31 @@
+# OSM data
+osmnx
+
+# Satellite data (STAC)
+pystac-client
+planetary-computer
+
+# Raster processing
+rasterio
+rioxarray
+xarray
+
+# Vector processing
+geopandas
+shapely
+
+# Numerical / indices
+numpy
+
+# DEM analysis (richdem skipped — using numpy for slope/TWI instead)
+
+# Visualization
+folium
+leafmap
+matplotlib
+
+# Config
+pyyaml
+
+# Notebook
+jupyter

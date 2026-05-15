@@ -1,0 +1,22 @@
+input:
+  source: "osm"  # "osm" to fetch from OpenStreetMap, or a file path e.g. "data/raw/my_lines.gpkg"
+
+area:
+  name: "Tampere region, Finland"
+  #bbox: [23.5, 61.3, 24.1, 61.7]  # [min_lon, min_lat, max_lon, max_lat] tampere
+  bbox: [24.7, 60.1, 25.3, 60.5] # helsinky
+
+corridor:
+  buffer_m: 50  # vegetation corridor width on each side of the power line
+
+sentinel2:
+  cloud_cover_max: 20  # percent — scenes above this are discarded
+
+risk:
+  weights:
+    ndvi: 0.5   # vegetation density — highest weight
+    ndwi: 0.3   # moisture content
+    slope: 0.2  # terrain steepness
+  thresholds:
+    critical: 0.10  # top 10% — inspect this season
+    elevated: 0.25  # top 25% — inspect next season

@@ -1,0 +1,32 @@
+# data — never commit raw satellite data or processed outputs
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.eggs/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/cache/
+cache/
+
+# pytest
+.pytest_cache/
+
+# conda / venv
+.env
+.venv
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+CLAUDE.md
