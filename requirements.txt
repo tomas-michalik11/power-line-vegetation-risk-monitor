@@ -21,7 +21,6 @@ numpy
 
 # Visualization
 folium
-leafmap
 matplotlib
 
 # Config
