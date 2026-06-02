@@ -1,6 +1,6 @@
 # Powerline Vegetation Risk Monitor
 
-Detects high-risk segments of power lines threatened by vegetation using open satellite data. Designed for energy companies (DSOs/TSOs) who need to prioritize vegetation management along HV lines.
+Detects high-risk segments of power lines threatened by vegetation using open satellite data.
 
 ## What it does
 
